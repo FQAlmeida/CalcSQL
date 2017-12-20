@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Operacoes\Divisao.cs" />
+    <Compile Include="Operacoes\Multiplicacao.cs" />
+    <Compile Include="Operacoes\Potenciacao.cs" />
+    <Compile Include="Operacoes\Fatoracao.cs" />
+    <Compile Include="Operacoes\Radiciacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Operacoes\Soma.cs" />
+    <Compile Include="SQL.cs" />
+    <Compile Include="Operacoes\Subtracao.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
